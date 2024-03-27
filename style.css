@@ -1,0 +1,41 @@
+* {
+  margin: 0;/*espaçamento externo*/
+  padding: 0;/*espaçamento interno*/
+}
+/*div pai .minhadiv*/
+
+.minhadiv {
+  width: 400px;/*largura*/
+ height: 400px; /*altura*/
+ background-color: violet;/*cor de fundo*/
+/* margin: 50px; espaçamento externo de todos os lados*/
+/*margin-top: 50px;
+margin-left: 50px;
+margin-right: 20px;
+margin-bottom: 20px;*/
+/*1° para cima e para baixo 2° direita e esquerda*/
+/*margin: 50px 30px*/
+/*1° pra cima 2° pra direita 3° pra baixo 4°pra esquerda*/
+/*margin: 50px 40px 30px 15px;*/
+
+padding: 10px 5px 30px 20px;/*espaçamento interno*/
+}
+
+/*div filho*/
+
+.filhodiv {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: 8px solid  yellow;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+/* 
+tipos de borda ->linha direita
+double -> linhas duplas
+dashed -> tracejado
+dotted -> pontilhado
+*/
